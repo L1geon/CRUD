@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from stocks_products.logistic.models import Product, Stock, StockProduct
+from .models import Product, Stock, StockProduct
 
 
 class ProductSerializer(serializers.ModelSerializer):
